@@ -1,0 +1,43 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    width: 100%;
+}
+.container{
+    display: flex;
+    padding: 30px;
+}
+.logo{
+    margin-left: 200px;
+    filter: invert(100%);
+}
+.sa-logo{
+    height: 30px;
+    width: 30px;
+}
+.list-container{
+    display: flex;
+    margin-left: 85px;
+    list-style: none;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 80px;
+    color: white;
+    font-size: larger;
+}
+.btn.active {
+    color: goldenrod;
+}
+.active {
+    border-bottom: 2px solid lightgray;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
